@@ -1,0 +1,18 @@
+.gridContainer {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: bottom;
+  align-items: center;
+  margin: 15vh 0 5vh 0;
+  overflow-y: auto;
+}
+
+.gridWrapper {
+  height: auto;
+  display: grid;
+  grid-template-columns: 600px 600px;
+  grid-column-gap: 32px;
+  grid-row-gap: 16px;
+  margin-bottom: 16px;
+}

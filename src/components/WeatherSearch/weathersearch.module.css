@@ -1,0 +1,36 @@
+.searchContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px;
+}
+
+.coordinatesInputs {
+  height: 50px;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.citiesWrapper {
+  height: 35vh;
+  width: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 32px;
+}
+
+.citiesGrid {
+  display: grid;
+  grid-template-columns: 120px 120px 120px;
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+  margin-top: 32px;
+}
