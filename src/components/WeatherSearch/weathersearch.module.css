@@ -17,8 +17,8 @@
 }
 
 .citiesWrapper {
-  height: 35vh;
-  width: 70vh;
+  height: 300px;
+  width: 550px;
   display: flex;
   flex-direction: column;
   align-items: center;
